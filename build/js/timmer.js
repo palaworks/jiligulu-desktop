@@ -1,5 +1,5 @@
 ﻿var now = new Date();
-function createtime(){
+function createTime(){
 var grt= new Date("08/18/2016 20:00:00");
 now.setTime(now.getTime()+250);
 days = (now - grt ) / 1000 / 60 / 60 / 24;
@@ -16,4 +16,4 @@ if(String(snum).length ==1 ){snum = "0" + snum;}
 document.getElementById("timeDate").innerHTML = " "+dnum+" 天 ";
 document.getElementById("times").innerHTML = " " + hnum + " 小时 " + mnum + " 分 " + snum + " 秒 ";
 }
-setInterval("createtime()",250);
+setInterval("createTime()",250);
