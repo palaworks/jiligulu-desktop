@@ -1,5 +1,5 @@
 ﻿var now = new Date();
-function createTisme(){
+function createTime(){
 var grt= new Date("08/18/2016 20:00:00");
 now.setTime(now.getTime()+250);
 days = (now - grt ) / 1000 / 60 / 60 / 24;
