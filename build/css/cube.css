@@ -35,7 +35,7 @@
 	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
 	
 	transition:0.3s;/*shadow淡入0.3s*/
-    transform: translate3d(-0.4rem,-0.32rem,0rem);/*全轴偏移xyz*/
+    transform: translate3d(-0.5rem,-0.3rem,0rem);/*全轴偏移xyz*/
 }
 #row{
 	width:100%;
