@@ -3,7 +3,19 @@ var ajaxcontent = 'Central';
 var ajaxsearch_class = 'searchform';
 var ajaxignore_string = new String('#, /wp-, .pdf, .zip, .rar, /goto');
 var ajaxignore = ajaxignore_string.split(', ');
-var ajaxloading_code = 'loading';
+var ajaxloading_code = 
+'
+<figure>
+  <section><div></div></section>
+  <section><div></div></section>
+  <section><div></div></section>
+  <section><div></div></section>
+  <section><div></div></section>
+  <section><div></div></section>
+  <section><div></div></section>
+  <section><div></div></section>
+</figure>
+';
 var ajaxloading_error_code = 'error';
 var ajaxreloadDocumentReady = false;
 var ajaxtrack_analytics = false
