@@ -2,21 +2,11 @@
   from { transform: translate(0,50%); }
   to { transform: translate(0,850%); }
 }
-body {
-  min-width: 325px;
-  height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: flex-start;
-}
 figure {
   margin: 30px;
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  position: relative;
 }
 section {
   width: 8px;
