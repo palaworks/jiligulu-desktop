@@ -1,25 +1,19 @@
-﻿.spinner {
-  width: 60px;
-  height: 60px;
-  background-color: #67CF22;
-  margin: 100px;
-  -webkit-animation: rotateplane 1.2s infinite ease-in-out;
-  animation: rotateplane 1.2s infinite ease-in-out;
+﻿@keyframes move {
+	from { transform: translate(0,0); }
+	to { transform: translate(0,600px); }
 }
-@-webkit-keyframes rotateplane {
-  0% { -webkit-transform: perspective(120px) }
-  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
-  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+#range {
+	z-index:20;
+	margin: 100px;
+	
+	height: 20px;
 }
-@keyframes rotateplane {
-  0% {
-    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
-  } 50% {
-    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
-  } 100% {
-    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-  }
+#line {	
+	z-index:20;
+	margin: 100px;
+	
+	width: 100%;
+	height: 2px;
+	background: dodgerblue;
+	animation: move 0.7s ease-in-out infinite alternate;
 }
