@@ -66,8 +66,9 @@ function ajaxloadPage(url, push, getData){
         }
         if (!jQuery('#' + ajaxcontent)) {
         }
-        //jQuery('#' + ajaxcontent).append(ajaxloading_code);
-		jQuery('#list1').append(ajaxloading_code);
+		
+        jQuery('#' + ajaxcontent).append(ajaxloading_code);
+		
         jQuery('#' + ajaxcontent).fadeTo("slow", 0.4,function() {
             jQuery('#' + ajaxcontent).fadeIn("slow", function() {
                 jQuery.ajax({
