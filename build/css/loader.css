@@ -3,11 +3,11 @@
 	to { transform: translate(0,2000px); }
 }
 #line {
-	position:fixed;
+	position:absolute;
 
 	top:40px;
 
-	width: 636.667px;
+	width: 47%;
 	height: 2px;
 
 	background: dodgerblue;
