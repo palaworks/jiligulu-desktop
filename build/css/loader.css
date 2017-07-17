@@ -1,11 +1,11 @@
 ﻿@keyframes move {
 	from { transform: translate(0,0); }
-	to { transform: translate(0,900px); }
+	to { transform: translate(0,1500px); }
 }
 #line {
 	position:fixed;
 
-	top:20px;
+	top:40px;
 
 	width: 631px;
 	height: 2px;
