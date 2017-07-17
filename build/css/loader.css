@@ -2,18 +2,14 @@
 	from { transform: translate(0,0); }
 	to { transform: translate(0,600px); }
 }
-#range {
-
-	
-}
 #line {
 	position:fixed;
 
 	top:0px;
-	
-	width: 90%;
+
+	width: 50%;
 	height: 2px;
-	
+
 	background: dodgerblue;
 	animation: move 0.7s ease-in-out infinite alternate;
 }
