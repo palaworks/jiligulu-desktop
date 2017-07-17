@@ -1,13 +1,13 @@
 ﻿@keyframes move {
 	from { transform: translate(0,0); }
-	to { transform: translate(0,600px); }
+	to { transform: translate(0,900px); }
 }
 #line {
 	position:fixed;
 
 	top:0px;
 
-	width: 50%;
+	width: 20%;
 	height: 2px;
 
 	background: dodgerblue;
