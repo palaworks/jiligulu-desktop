@@ -113,7 +113,7 @@ function ajaxloadPage(url, push, getData){
                         }
                         document.getElementById(ajaxcontent).innerHTML = output;
                         jQuery('#' + ajaxcontent).css("position", "absolute");
-                        jQuery('#' + ajaxcontent).css("left", "20000px");
+                        jQuery('#' + ajaxcontent).css("left", "200px");
                         jQuery('#' + ajaxcontent).show();
                         ajaxloadPageInit("#" + ajaxcontent + " ");
                         if (ajaxreloadDocumentReady == true) {
