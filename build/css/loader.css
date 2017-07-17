@@ -10,5 +10,5 @@
 	height: 2px;
 
 	background: dodgerblue;
-	animation: move 10s ease-in-out infinite alternate;
+	animation: move 0.7s ease-in-out infinite alternate;
 }
