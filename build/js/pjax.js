@@ -3,8 +3,10 @@ var ajaxcontent = 'Central';
 var ajaxsearch_class = 'searchform';
 var ajaxignore_string = new String('#, /wp-, .pdf, .zip, .rar, /goto');
 var ajaxignore = ajaxignore_string.split(', ');
+
 var ajaxloading_code = '<div id="line"></div>';
-var ajaxloading_error_code = 'error';
+var ajaxloading_error_code = 'PJAX错误啦~快点咨询站长';
+
 var ajaxreloadDocumentReady = false;
 var ajaxtrack_analytics = false
 var ajaxscroll_top = true
