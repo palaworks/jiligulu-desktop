@@ -4,6 +4,7 @@
 }
 #line{
 	position:relative;
+	top:0px;
 	z-index:999;
 
 	width: 100%;
