@@ -3,8 +3,10 @@
 	to { transform: translate(0,2000px); }
 }
 #line {
-	position:static;
-
+	position:absolute;
+	
+	bottom:5px;
+	
 	top:0px;
 
 	width: 100%;
