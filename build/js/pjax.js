@@ -1,5 +1,5 @@
 ﻿var ajaxhome='http://www.thaumy.link/';
-var ajaxcontent = 'Central';
+var ajaxcontent = 'col-md-8';
 var ajaxsearch_class = 'searchform';
 var ajaxignore_string = new String('#, /wp-, .pdf, .zip, .rar, /goto');
 var ajaxignore = ajaxignore_string.split(', ');
@@ -113,7 +113,7 @@ function ajaxloadPage(url, push, getData){
                         }
                         document.getElementById(ajaxcontent).innerHTML = output;
                         jQuery('#' + ajaxcontent).css("position", "absolute");
-                        jQuery('#' + ajaxcontent).css("left", "200px");
+                        jQuery('#' + ajaxcontent).css("left", "20000px");
                         jQuery('#' + ajaxcontent).show();
                         ajaxloadPageInit("#" + ajaxcontent + " ");
                         if (ajaxreloadDocumentReady == true) {
