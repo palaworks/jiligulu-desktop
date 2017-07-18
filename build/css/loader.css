@@ -1,6 +1,6 @@
 ﻿@keyframes move {
-	from { transform: translate(0,0); }
-	to { transform: translate(0,1700px); }
+	from { transform: translate(0,100%); }
+	to { transform: translate(0,600%); }
 }
 #line{
 	position:relative;
