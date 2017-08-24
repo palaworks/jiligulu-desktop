@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".row']").on("prepend","a[rel='category tag']",function(){$("a[rel='category tag']").prepend("<div class='padd'></div>");});$(".row").on("prepend","a[class='comment!tag']",function(){$("a[class='comment!tag']").prepend("<div class='padd'></div>");});});
+$(document).ready(function(){$(".row']").on("prepend",function(){$("a[rel='category tag']").prepend("<div class='padd'></div>");});$(".row").on("prepend",function(){$("a[class='comment!tag']").prepend("<div class='padd'></div>");});});
