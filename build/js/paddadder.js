@@ -1,3 +1,1 @@
-function paddadder(){
-    $("a[rel='container']").prepend("<div class='padd'></div>");
-}
+function paddadder(){$("a[rel='category tag']").prepend("<div class='padd'></div>");}
