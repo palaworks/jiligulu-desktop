@@ -1,1 +1,1 @@
-function paddadder(){$("a[rel='category tag']").prepend("<div class='padd'></div>");}
+$(document).ready(function(){$("a[rel='category tag']").prepend("<div class='padd'></div>");});
