@@ -1,7 +1,7 @@
 ﻿var ajaxhome='http://www.thaumy.link/';
 var ajaxcontent = 'Central';
 var ajaxsearch_class = 'searchform';
-var ajaxignore_string = new String('/wp-, .pdf, .zip, .rar, /goto');
+var ajaxignore_string = new String('#comments, #respond, /wp-');
 var ajaxignore = ajaxignore_string.split(', ');
 
 var ajaxloading_code = '<div id="line"></div>';
