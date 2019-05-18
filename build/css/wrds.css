@@ -1,0 +1,11 @@
+.wrd-dt2 {
+    background:rgba(0,167,0,1.00);
+    font-size: 15px;
+	color: rgba(255,255,255,1.00);
+	padding-left: 4px;
+	padding-right: 4px;
+	border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
