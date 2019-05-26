@@ -23,7 +23,7 @@
     background:rgba(27,128,212,1.00);
 }
 .mk-ui {
-    background:rgba(217,25,114,1.00);
+    background:rgb(0, 126, 158);
 }
 
 .mk-w, .mk-bug, .mk-dbg, .mk-updt, .mk-mtn, .mk-ui {
@@ -51,5 +51,5 @@
     content: "MTN";
 }
 .mk-ui::before {
-    content: "Field";
+    content: "UI";
 }
