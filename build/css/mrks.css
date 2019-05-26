@@ -26,7 +26,7 @@
     background:rgba(217,25,114,1.00);
 }
 
-.mk-none, .mk-bug, .mk-dbg, .mk-updt, .mk-mtn, .mk-ui {
+.mk-w, .mk-bug, .mk-dbg, .mk-updt, .mk-mtn, .mk-ui {
 	font-family: 'Ubuntu Mono', monospace;
     color: #FFFFFF;
     border-radius: 5px;
@@ -35,7 +35,7 @@
     padding-right: 5px;
     font-size: 16px;
 }
-.mk-none::before {
+.mk-w::before {
     content: "W";
 }
 .mk-bug::before {
