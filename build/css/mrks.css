@@ -14,16 +14,16 @@
     background: rgba(70,70,70,1.00);
 }
 .mk-updt {
-    background: rgba(12,143,185,1.00);
+	background:rgb(150, 80, 180);
 }
 .mk-mtn {
     background: rgba(236,146,17,1.00);
 }
 .mk-w {
-    background:rgba(27,128,212,1.00);
+    background:rgb(0, 120, 120);
 }
 .mk-ui {
-    background:rgb(0, 126, 158);
+    background: rgba(12,143,185,1.00);
 }
 
 .mk-w, .mk-bug, .mk-dbg, .mk-updt, .mk-mtn, .mk-ui {
