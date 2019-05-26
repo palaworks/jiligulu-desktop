@@ -2,7 +2,7 @@
     background: rgba(205,21,84,1.00);
 }
 .mk-dbg {
-    background: rgba(119,220,48,1.00);
+    background:rgba(0,167,0,1.00)
 }
 .mk-dt {
 	font-family: 'Ubuntu Mono', monospace;
@@ -14,15 +14,19 @@
     background: rgba(70,70,70,1.00);
 }
 .mk-updt {
-    background: rgba(12,193,185,1.00);
+    background: rgba(12,143,185,1.00);
 }
 .mk-mtn {
     background: rgba(236,146,17,1.00);
 }
-.mk-none {
-    background: rgba(170,170,170,1.00);
+.mk-w {
+    background:rgba(27,128,212,1.00);
 }
-.mk-none, .mk-bug, .mk-dbg, .mk-updt, .mk-mtn {
+.mk-ui {
+    background:rgba(217,25,114,1.00);
+}
+
+.mk-none, .mk-bug, .mk-dbg, .mk-updt, .mk-mtn, .mk-ui {
 	font-family: 'Ubuntu Mono', monospace;
     color: #FFFFFF;
     border-radius: 5px;
@@ -32,7 +36,7 @@
     font-size: 16px;
 }
 .mk-none::before {
-    content: "…";
+    content: "W";
 }
 .mk-bug::before {
     content: "!";
@@ -45,4 +49,7 @@
 }
 .mk-mtn::before {
     content: "MTN";
+}
+.mk-ui::before {
+    content: "Field";
 }

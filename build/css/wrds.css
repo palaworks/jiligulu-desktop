@@ -23,9 +23,8 @@ a.wd-linked:hover {
 .wd-heimu:hover {
     color: #FFFFFF;
 }
-.wd-dt2 {
-    background:rgba(0,167,0,1.00);
-    font-size: 15px;
+.wd-dt1,.wd-dt2,.wd-dt3,.wd-dt4{
+	font-size: 15px;
 	color: rgba(255,255,255,1.00);
 	padding-left: 4px;
 	padding-right: 4px;
@@ -33,6 +32,18 @@ a.wd-linked:hover {
     border-top-right-radius: 2px;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
+}
+.wd-dt1 {
+    background:rgba(27,128,212,1.00);
+}
+.wd-dt2 {
+    background:rgba(0,167,0,1.00);
+}
+.wd-dt3 {
+    background:rgba(217,25,114,1.00);
+}
+.wd-dt4 {
+    background:rgba(134,95,197,1.00);
 }
 .wd-imgfull>img{
 	width: 100%;
