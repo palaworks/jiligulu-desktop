@@ -1,1 +1,0 @@
-$(document).ready(function(){$('span.sp_cate a').bind("prepend",relf());$('span.sp_comment a').bind("prepend",claf());});function relf(){$("a[rel='category tag']").prepend("<div class='padd'></div>");}function claf(){$("a[class='comment!tag']").prepend("<div class='padd'></div>");}
