@@ -57,7 +57,7 @@
 }
 
 .mk-dbg::before {
-    content: "DBG";
+    content: "🛠";
 }
 
 .mk-updt::before {
@@ -65,7 +65,7 @@
 }
 
 .mk-mtn::before {
-    content: "MTN";
+    content: "📦";
 }
 
 .mk-ui::before {
