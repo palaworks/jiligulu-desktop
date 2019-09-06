@@ -49,19 +49,19 @@
 }
 
 .mk-w::before {
-    content: "W";
+    content: "📌";
 }
 
 .mk-bug::before {
-    content: "!";
+    content: "🚨";
 }
 
 .mk-dbg::before {
-    content: "🛠";
+    content: "🔨";
 }
 
 .mk-updt::before {
-    content: "UPDT";
+    content: "🎯";
 }
 
 .mk-mtn::before {
@@ -69,5 +69,5 @@
 }
 
 .mk-ui::before {
-    content: "UI";
+    content: "📐";
 }
