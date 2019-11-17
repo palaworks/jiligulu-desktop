@@ -14,11 +14,11 @@ a.wd-linked:hover {
     text-decoration: inherit;
 }
 .wd-heimu {
-    padding-left: 1%;
-    padding-right: 1%;
-    border-radius: 4px;
-    color: rgba(73,73,73,1.00);
-    background: rgba(73,73,73,1.00);
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 3px;
+    color: rgb(40,40,40);
+    background: rgb(40,40,40);
 }
 .wd-heimu:hover {
     color: #FFFFFF;
