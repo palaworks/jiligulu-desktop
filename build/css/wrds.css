@@ -23,9 +23,8 @@ a.wd-linked:hover {
 .wd-heimu:hover {
     color: #FFFFFF;
 }
-.wd-dt1,.wd-dt2,.wd-dt3,.wd-dt4{
+.wd-dt1,.wd-dt2,.wd-dt3,.wd-dt4,.wd-dt5{
 	font-size: 15px;
-	color: rgba(255,255,255,1.00);
 	padding-left: 4px;
 	padding-right: 4px;
 	border-top-left-radius: 2px;
@@ -35,17 +34,26 @@ a.wd-linked:hover {
 }
 
 .wd-dt1 {
-    background:rgba(27,128,212,1.00);
+    background:#1b80d4;
+    color: #ffffff;
 }
 .wd-dt2 {
-    background:rgba(0,167,0,1.00);
+    background:#00a700;
+    color: #ffffff;
 }
 .wd-dt3 {
-    background:rgba(217,25,114,1.00);
+    background:#d91972;
+    color: #ffffff;
 }
 .wd-dt4 {
-    background:rgba(134,95,197,1.00);
+    background:#865fc5;
+    color: #ffffff;
 }
+.wd-dt5 {
+    background:#ff9f00;
+    color: #000000;
+}
+
 .wd-imgfull>img{
 	width: 100%;
 }
