@@ -24,9 +24,11 @@ a.wd-linked:hover {
     color: #FFFFFF;
 }
 .wd-dt1,.wd-dt2,.wd-dt3,.wd-dt4,.wd-dt5{
-	font-size: 15px;
+    font-size: 15px;
+    
 	padding-left: 4px;
-	padding-right: 4px;
+    padding-right: 4px;
+    
 	border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     border-bottom-left-radius: 2px;
