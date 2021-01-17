@@ -81,8 +81,6 @@
               <v-btn text class="text-caption" v-bind="attrs" v-on="on">详情</v-btn>
             </template>
             创建时间 : {{item.CT}}
-            <br />
-            MD5 : {{item.PropertyContainer.MD5}}
           </v-tooltip>
 
           <v-row justify="end">
